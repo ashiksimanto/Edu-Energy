@@ -14225,6 +14225,7 @@ textarea {
   -webkit-transform: scale(1.2) translate(5%, -5%);
   -ms-transform: scale(1.2) translate(5%, -5%);
   transform: scale(1.2) translate(5%, -5%);
+
 }
 
 @media (max-width: 1199.98px) {
