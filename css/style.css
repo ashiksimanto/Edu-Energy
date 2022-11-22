@@ -24,7 +24,7 @@
   --bs-primary: #f17945;
   --bs-secondary: #343661;
   --bs-success: #198754;
-  --bs-info: #0dcaf0;
+  --bs-info: #31738d;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
@@ -254,12 +254,12 @@ sup {
 }
 
 a {
-  color: #f17945;
+  color: #3aa8e8;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #c16137;
+  color: #21587c;
 }
 
 a:not([href]):not([class]),
@@ -9066,7 +9066,7 @@ fieldset:disabled .btn {
 }
 
 .mt-5 {
-  margin-top: 3rem !important;
+  margin-top: 5rem !important;
 }
 
 .mt-auto {
@@ -9358,7 +9358,7 @@ fieldset:disabled .btn {
 }
 
 .fs-5 {
-  font-size: 1.25rem !important;
+  font-size: 1rem !important;
 }
 
 .fs-6 {
@@ -13655,8 +13655,8 @@ textarea {
 .site-nav .site-navigation .site-menu>li.cta-button a {
   padding: 6px 20px;
   border-radius: 30px;
-  background: #f17945;
-  border: 2px solid #f17945;
+  background: #25cff2;
+  border: 2px solid #25cff2;
 }
 
 .site-nav .site-navigation .site-menu>li.cta-button a:hover {
@@ -14260,7 +14260,7 @@ textarea {
 .hero,
 .hero>.container>.row {
   padding-top: 7rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0rem;
 }
 
 @media (max-width: 767.98px) {
@@ -14268,7 +14268,7 @@ textarea {
   .hero,
   .hero>.container>.row {
     padding-top: 4rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
   }
 }
 
@@ -14397,7 +14397,7 @@ textarea {
 @media (max-width: 991.98px) {
   .section {
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 0rem;
   }
 }
 
@@ -14620,7 +14620,7 @@ textarea {
 .block-testimonial .author h3,
 .block-testimonial .author .h3 {
   font-size: 18px;
-  color: #f17945;
+  color: var(--bs-info);
   margin-bottom: 0;
 }
 
