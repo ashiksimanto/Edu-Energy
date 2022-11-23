@@ -5657,7 +5657,7 @@ fieldset:disabled .btn {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 5px solid lightblue;
   border-radius: 0.25rem;
 }
 
@@ -13485,7 +13485,7 @@ h4,
 h5,
 .h5,
 .logo {
-  font-family: "Brygada 1918", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #343661;
 }
 
@@ -13649,7 +13649,7 @@ textarea {
 }
 
 .site-nav .site-navigation .site-menu>li>a:hover {
-  color: #fff;
+  color: #25cff2;
 }
 
 .site-nav .site-navigation .site-menu>li.cta-button a {

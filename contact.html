@@ -56,16 +56,16 @@
 
                     </div>
                     <div class="col-lg-6 d-none d-lg-inline-block text-center nav-center-wrap">
-                        <ul class="js-clone-nav text-center site-menu px-2 m-0 text-info">
-                            <li class="active"><a class="fs-3" href="index.html">Home</a></li>
-                            <li class="active"><a class="fs-3" href="scopes.html">Scopes</a></li>
+                        <ul class="js-clone-nav text-center site-menu px-2 my-2 text-info">
+                            <li class=""><a class="fs-3" href="index.html">Home</a></li>
+                            <li class=""><a class="fs-3" href="scopes.html">Scopes</a></li>
                             <!-- <li class="active"><a class="fs-3" href="services.html">Services</a></li> -->
-                            <li class="active"><a class="fs-3" href="FAQ.html">FAQs</a></li>
+                            <li class=""><a class="fs-3" href="FAQ.html">FAQs</a></li>
 
 
                         </ul>
                     </div>
-                    <div class="col-6 col-lg-3 text-lg-end">
+                    <div class="col-6 col-lg-3 text-lg-end my-3">
                         <ul class="js-clone-nav d-none d-lg-inline-block text-end site-menu">
                             <li class="cta-button text-white"><a class="fs-3" href="contact.html">Contact Us</a></li>
                         </ul>
@@ -149,54 +149,90 @@
     </div>
     <!-- Contact End -->
 
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h5 class="text-info text-uppercase mb-3" style="letter-spacing: 5px;">Review</h5>
+                <h1>Share Your Thoughts With Us</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form  bg-info rounded p-5">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="control-group">
+                                <input type="text" class="form-control border-0 p-4 bg-white" id="name"
+                                    placeholder="Your Name" required="required"
+                                    data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+
+                            <div class="control-group">
+                                <input type="email" class="form-control border-0 p-4  bg-white" id="email"
+                                    placeholder="Your Email" required="required"
+                                    data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+
+                            <div class="control-group">
+                                <textarea class="form-control border-0 py-3 px-4  bg-white" rows="5" id="message"
+                                    placeholder="Thoughts on our Services" required="required"
+                                    data-validation-required-message="Share your Thoughts on our Services"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-light py-3 px-5 text-info fs-5 bold" type="submit"
+                                    id="sendMessageButton">Send Review</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
 
 
     <div class="site-footer bg-dark">
         <div class="container ">
 
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="widget">
-                        <img src="images/logoalter.png" alt="Edu Energy" style="width:150px">
+                        <img src="images/logoalter.png" alt="Edu Energy" style="width:280px">
 
 
                     </div> <!-- /.widget -->
-                    <div class="widget">
-                        <h3 class="text-info">Connect</h3>
-                        <ul class="list-unstyled social">
-                            <li><a href="#"><span class="icon-instagram"></span></a></li>
-                            <li><a href="#"><span class="icon-twitter"></span></a></li>
-                            <li><a href="https://www.facebook.com/eduenergy1"><span class="icon-facebook"></span></a>
-                            </li>
-                            <li><a href="#"><span class="icon-linkedin"></span></a></li>
-
-                        </ul>
-                    </div> <!-- /.widget -->
+                    <!-- /.widget -->
                 </div> <!-- /.col-lg-3 -->
 
-                <div class="col-lg-2 ml-auto">
+                <div class="col-lg-3">
                     <div class="widget">
-                        <h3 class="text-info">Links</h3>
-                        <ul class="list-unstyled float-left links">
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Courses</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div> <!-- /.widget -->
+                        <h3 class="text-info">Our Scopes</h3>
+
+                    </div>
+                    <ul class="list-unstyled links">
+                        <a class="text-info mb-1" href="scopes.html"><i class="fa fa-angle-right "></i> Cookery</a> <br>
+                        <a class="text-info mb-1" href="scopes.html"><i class="fa fa-angle-right "></i> Health &
+                            Support</a><br>
+                        <a class="text-info mb-1" href="scopes.html"><i class="fa fa-angle-right "></i>
+                            Hospitality</a><br>
+                        <a class="text-info mb-1" href="scopes.html"><i class="fa fa-angle-right "></i>
+                            Community</a><br>
+                        <a class="text-info mb-1" href="scopes.html"><i class="fa fa-angle-right "></i> Beauty
+                            therapy</a><br>
+                        <a class="text-info mb-1" href="scopes.html"><i class="fa fa-angle-right "></i> Trade,Building &
+                            Construction</a><br>
+                        <a class="text-info mb-1" href="scopes.html"><i class="fa fa-angle-right "></i> Business &
+                            Leadership</a><br>
+                        <a class="text-info mb-1" href="scopes.html"><i class="fa fa-angle-right "></i> Accounting &
+                            IT</a><br>
+                    </ul> <!-- /.widget -->
                 </div> <!-- /.col-lg-3 -->
 
-                <div class="col-lg-2">
-                    <div class="widget">
-                        <h3 class="text-info">Company</h3>
-                        <ul class="list-unstyled float-left links">
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Courses</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div> <!-- /.widget -->
-                </div> <!-- /.col-lg-3 -->
+
+
 
 
                 <div class="col-lg-3">
@@ -210,14 +246,33 @@
                         </ul>
                     </div> <!-- /.widget -->
                 </div> <!-- /.col-lg-3 -->
+                <div class="row col-lg-3">
+                    <div class="widget">
+                        <h3 class="text-info">Connect With Us</h3>
+                        <ul class="list-unstyled social">
+                            <!-- <li><a href="#"><span class="icon-instagram"></span></a></li>
+							<li><a href="#"><span class="icon-twitter"></span></a></li> -->
+                            <li class="text-info aliign-items-between justify-content-center"><a
+                                    href="https://www.facebook.com/eduenergy1"><span class="icon-facebook  text-info">
+                                    </span>
+
+                                </a>
+                                <p>EDU ENERGY</p>
+                            </li>
+
+                            <!-- <li><a href="#"><span class="icon-linkedin"></span></a></li> -->
+
+                        </ul>
+                    </div>
+                    <div class="col-12 text-left">
+                        <p class=" text-danger">All rights are Reserved by EDU ENERGY. Developed by Ashik_simanto</p>
+                    </div>
+
+                </div>
 
             </div> <!-- /.row -->
 
-            <div class="row mt-5">
-                <div class="col-12 text-center">
-                    <p class="text-info">worked on by AshikSimanto</p>
-                </div>
-            </div> <!-- /.container -->
+            <!-- /.container -->
         </div> <!-- /.site-footer -->
 
         <!-- Preloader -->
